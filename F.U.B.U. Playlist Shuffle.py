@@ -13,12 +13,9 @@
 
 # In[15]:
 
-
 black_owned_things = ['liquor', 'liquor', 'skin', 'face', 'leather', 'sugar', 'leaves', 'keys', 'creepers', 'face', 'skin', 'braids', 'waves', 'days', 'baes', 'things']
 
-
 # In[16]:
-
 
 def solange(almeda):
     from re import sub
@@ -36,42 +33,29 @@ def solange(almeda):
         verse = sub('_', word, verse, 1)
     return verse
 
-
 # In[17]:
 
-
 print(solange(black_owned_things))
-
 
 # In[18]:
 
-
 from random import shuffle
-
 
 # In[19]:
 
-
 shuffle(black_owned_things)
-
 
 # In[20]:
 
-
 print(solange(black_owned_things))
-
 
 # In[21]:
 
-
 shuffle(black_owned_things)
-
 
 # In[22]:
 
-
 print(solange(black_owned_things))
-
 
 # # 'Don't Touch My Hair' 👩🏾‍🦱🚫🙅🏾‍♀ by Solange
 
@@ -81,12 +65,9 @@ print(solange(black_owned_things))
 
 # In[8]:
 
-
 black_pride = ['hair', 'feelings', 'wear', 'soul', 'rhythm', 'know', 'crown', 'vision', 'found', 'there', 'feelings', 'wear']
 
-
 # In[9]:
-
 
 def solange(dont_touch):
     from re import sub
@@ -102,39 +83,26 @@ def solange(dont_touch):
         verse = sub('_', word, verse, 1)
     return verse
 
-
 # In[10]:
 
-
 print(solange(black_pride))
-
 
 # In[11]:
 
-
 from random import shuffle
-
 
 # In[13]:
 
-
 shuffle(black_pride)
-
 
 # In[14]:
 
-
 print(solange(black_pride))
-
 
 # In[15]:
 
-
 shuffle(black_pride)
-
 
 # In[16]:
 
-
 print(solange(black_pride))
-
